@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Phishing Detector</title>
+    
+    <style>
+        body {
+            background-color: black;
+            background-size: cover; /* Cover the entire page */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            background-attachment: fixed; /* Fixed background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        h1 {
+            font-family: "Crimson Text", serif; /* Updated font-family */
+            font-size: 36px;
+            font-weight: bold;
+            font-style: normal;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            background-image: linear-gradient(to left, #0073e6, #ff3366); /* Gradient background */
+            -webkit-background-clip: text; /* For Chrome and Safari */
+            background-clip: text; /* For most other browsers */
+            color: transparent; /* Make the text transparent to show the gradient */
+            text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Updated text-shadow */
+        }
+        label {
+            font-weight: bold;
+            color: rgba(169, 169, 169, 0.7); /* Set the text color to red */
+        }
+        /* Make the input field transparent */
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: transparent; /* Set the background color to transparent */
+            color:#fffdfc;
+        }
+        p {
+            color: #666;
+        }
+       
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Style the submit button */
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            /* Hover effect */
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        /* Change button color on hover */
+        input[type="submit"]:hover {
+            background-color: #0056b3; /* Change to a different color */
+        }
+
+        img {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Phishing Detector</h1>
+        
+        <!-- Adding a search field -->
+        <form action='/result/' method="get">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search" placeholder="Enter URL" style="width: 500px;" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Adding an image 
+    <img src="https://image.lexica.art/full_jpg/064503ee-07cc-4eb9-bfe2-e8e4984db690" alt="Sample Image" width="250" height="250"> -->
+</body>
+</html>

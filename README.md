@@ -22,7 +22,7 @@ Follow these steps to set up and run the project locally:
 
 1. Clone the Repository
    ```sh
-    git clone https://github.com/Suryatejaeasari/phishing-detector.git
+    git clone https://github.com/Suryatejaeasari/Phishing-Detector.git
     cd phishing-detector
     ```
 2. Create a Virtual Environment (Optional but Recommended)
